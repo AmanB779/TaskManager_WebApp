@@ -1,0 +1,125 @@
+# Task Manager App - Backend
+
+## Overview
+
+This is the backend service for the Task Manager application, built with Node.js and Express.js. It provides RESTful APIs for task management, user authentication, and data persistence.
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+- bcrypt for password hashing
+
+## Project Structure
+
+```
+backend/
+    config/         # Configuration files
+    controllers/    # Route controllers
+    middleware/     # Custom middleware
+    models/         # Database models
+    routes/         # API routes
+    utils/          # Utility functions
+    helper/         # Helper functions
+    server.js       # Entry point
+```
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- MongoDB
+- npm or yarn
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd backend
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Create a `.env` file in the root directory with the following variables:
+
+```env
+NODE_ENV
+PORT
+CORS_ORIGIN
+MONGO_URI
+JWT_SECRET_KEY
+JWT_EXPIRATION
+```
+
+4. Start the server
+
+```bash
+npm start
+```
+
+## API Endpoints
+
+### Authentication
+
+- `POST /auth/register` - Register a new user
+- `POST /auth/login` - Login user
+
+### Tasks
+
+- `GET /tasks` - Get all tasks
+- `POST /tasks/addTask` - Create a new task
+- `GET /tasks/:id` - Get task by User
+- `PUT /tasks/:id` - Update task
+- `DELETE /tasks/:id` - Delete task
+
+## Postman Collection Link
+
+[Postman Collection Link](https://tggtmscollection.postman.co/workspace/My-Workspace~80f37a45-abec-414a-8327-ac909e878574/collection/42508487-1c03eb39-68f0-497f-a59f-5248242121c0?action=share&creator=42508487)
+
+## Error Handling
+
+The API uses standard HTTP status codes:
+
+- 200: Success
+- 201: Created
+- 400: Bad Request
+- 401: Unauthorized
+- 403: Forbidden
+- 404: Not Found
+- 500: Internal Server Error
+
+## Security
+
+- JWT-based authentication
+- Password hashing using bcryptjs
+- CORS enabled
+- Rate limiting
+
+## Development
+
+```bash
+# Run in development mode
+npm run dev
+
+# Run tests
+npm test
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License.
