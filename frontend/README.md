@@ -92,8 +92,6 @@ npm run lint
 - Session management
 - Protected routes
 
-![Description](image.png)
-
 ## Contributing
 
 1. Fork the repository
