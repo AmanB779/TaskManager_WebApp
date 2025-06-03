@@ -210,19 +210,19 @@ npm run lint
 
 #### Signup Screen
 
-<img src="public/app_images/signup.png?raw=true" alt="Signup Screen" width="200" title="Signup Screen">
+<img src="public/app_images/signup.png?raw=true" alt="Signup Screen" width="400" title="Signup Screen">
 
 #### Login Screen
 
-<img src="public/app_images/login.png?raw=true" alt="Login Screen" width="200" title="Login Screen">
+<img src="public/app_images/login.png?raw=true" alt="Login Screen" width="400" title="Login Screen">
 
 #### Dashboard/Add Task
 
-<img src="public/app_images/dashboard.png?raw=true" alt="Dashboard/Add Task" width="200" title="Dashboard/Add Task">
+<img src="public/app_images/dashboard.png?raw=true" alt="Dashboard/Add Task" width="400" title="Dashboard/Add Task">
 
 #### Edit Task
 
-<img src="public/app_images/task_edit.png?raw=true" alt="Edit Task" width="200" title="Edit Task">
+<img src="public/app_images/task_edit.png?raw=true" alt="Edit Task" width="400" title="Edit Task">
 
 ## Contributing
 
